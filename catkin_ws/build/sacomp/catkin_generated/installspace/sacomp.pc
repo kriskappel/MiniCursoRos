@@ -1,0 +1,8 @@
+prefix=/home/kriskappel/Documents/MiniCursoRos/catkin_ws/install
+
+Name: sacomp
+Description: Description of sacomp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kriskappel/Documents/MiniCursoRos/catkin_ws/install/lib 
+Requires: 

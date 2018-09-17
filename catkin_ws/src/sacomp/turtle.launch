@@ -1,0 +1,10 @@
+<launch>
+<node pkg="turtlesim" name="simulador" type="turtlesim_node"/> <!--abre turtlesim-->
+
+<node pkg="rostopic" name="publisher" type="rostopic" 
+ args="pub /turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'"/> <!--publica no tópico-->
+
+<node pkg="rosservice" name="tinta" type="rosservice" args="call /turtle1/set_pen 112 112 112 10 0"/>  <!--troca a cor da tinta-->
+
+</launch>
+

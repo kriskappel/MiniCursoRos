@@ -1,0 +1,4 @@
+<launch>
+<node pkg="turtlesim" name="simulador" type="turtlesim_node"/> <!--abre turtlesim-->
+</launch>
+

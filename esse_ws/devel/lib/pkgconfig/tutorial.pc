@@ -1,0 +1,8 @@
+prefix=/home/dell/esse_ws/devel
+
+Name: tutorial
+Description: Description of tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
